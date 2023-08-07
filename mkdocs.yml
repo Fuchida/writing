@@ -1,0 +1,17 @@
+site_name: Writting
+site_url: https://Fuchida.github.io/writing/
+theme: readthedocs
+plugins:
+  - search
+  - include_dir_to_nav:
+      reverse_sort_directory: true
+
+nav:
+  - Y2023: Y2023
+  - Y2021: Y2021
+  - Y2021: Y2018
+  - Y2021: Y2017
+  - Y2021: Y2016
+  - Y2021: Y2015
+  - Y2021: Y2014
+  - Y2021: Y2013
