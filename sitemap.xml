@@ -2,177 +2,182 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://Fuchida.github.io/writing/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2013/battle-tested/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2013/emotional-refactor/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2013/git-quick-setup/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2013/git-stop-tracking-a-directory/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2013/swappable-components/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2013/symlink-a-file-to-a-directory/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2013/uwsgi-master-process/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2014/code-comments-of-intent/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2014/commit-message-prefixes/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2014/mysql-preflight-checklist/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2014/tunnel-vision-debugging/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2014/virtualenv-and-python-versions/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2014/xcode-beginner-shortcuts/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2015/python-one-liner-refactors/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2015/with-python-pick-random-item/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/bit-counting/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/code-execution-process/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/color-auto-testing/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/flexibility-and-the-future/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/joining-url-paths/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/log-local-file/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/multi-item-import/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/python-classes-by-example/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2016/string-pairs-python/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2017/asymptotic-notation/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2017/command-line-arguments/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2017/module-level-imports/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2017/run-linux-process-in-background/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2017/teminal-output-to-a-file/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2018/python-decorator-by-example/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2021/find-duplicates-in-list/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2021/json-dict-diff/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2021/set-to-list/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://Fuchida.github.io/writing/Y2023/concurency-primitives/</loc>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://Fuchida.github.io/writing/Y2023/diagonal-diff/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-09-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

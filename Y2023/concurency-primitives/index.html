@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://Fuchida.github.io/writing/Y2013/uwsgi-master-process/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://Fuchida.github.io/writing/Y2023/concurency-primitives/" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>uwsgi Master Process - Writting</title>
+    <title>Parallel/Concurrency Primitives - Writting</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "uwsgi Master Process";
-        var mkdocs_page_input_path = "Y2013/uwsgi-master-process.md";
-        var mkdocs_page_url = "/writing/Y2013/uwsgi-master-process/";
+        var mkdocs_page_name = "Parallel/Concurrency Primitives";
+        var mkdocs_page_input_path = "Y2023/concurency-primitives.md";
+        var mkdocs_page_url = "/writing/Y2023/concurency-primitives/";
       </script>
     
     <!--[if lt IE 9]>
@@ -40,10 +40,12 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption"><span class="caption-text">Y2023</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../../Y2023/concurency-primitives/">Parallel/Concurrency Primitives</a>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Parallel/Concurrency Primitives</a>
+    <ul class="current">
+    </ul>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../Y2023/diagonal-diff/">Find the absolute diagonal difference of a matrix</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../diagonal-diff/">Find the absolute diagonal difference of a matrix</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Y2021</span></p>
@@ -117,20 +119,20 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Y2021</span></p>
-              <ul class="current">
-                  <li class="toctree-l1"><a class="reference internal" href="../battle-tested/">Battle Tested</a>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Y2013/battle-tested/">Battle Tested</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../emotional-refactor/">Emotional Refactor</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Y2013/emotional-refactor/">Emotional Refactor</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../git-quick-setup/">Git Quick Setup</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Y2013/git-quick-setup/">Git Quick Setup</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../git-stop-tracking-a-directory/">Git Stop Tracking a Directory or file</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Y2013/git-stop-tracking-a-directory/">Git Stop Tracking a Directory or file</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../swappable-components/">Swappable Components</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Y2013/swappable-components/">Swappable Components</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../symlink-a-file-to-a-directory/">Symlink A File to a Directory</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Y2013/symlink-a-file-to-a-directory/">Symlink A File to a Directory</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">uwsgi Master Process</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../../Y2013/uwsgi-master-process/">uwsgi Master Process</a>
                   </li>
               </ul>
       </div>
@@ -147,8 +149,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
-          <li>Y2021 &raquo;</li>
-      <li class="breadcrumb-item active">uwsgi Master Process</li>
+          <li>Y2023 &raquo;</li>
+      <li class="breadcrumb-item active">Parallel/Concurrency Primitives</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -157,16 +159,40 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <p>If you are just getting your feet wet with uWSGI, you might have run into the following error when running it.</p>
-<p><code>*** WARNING: you are running uWSGI without its master process manager ***</code></p>
-<p>To run uWSGI with the master process add the flag <code>-M</code> flag when running uWSGI. Then you will get the following nice message.</p>
-<p><code>spawned uWSGI master process (pid: 755)</code></p>
-<p>The Master process manager will respawn your process if or when it dies. See this <a href="https://uwsgi-docs.readthedocs.org/en/latest/Options.html?highlight=options#master">reference doc</a> about the flag.</p>
+                <ul>
+<li>
+<p>mutexes: a locking mechanism to synchronize access to a
+shared resource</p>
+</li>
+<li>
+<p>Semaphores: a signaling mechanism to control access to a shared
+resource</p>
+</li>
+<li>
+<p>Deadlock: programming error where a collection of tasks are all
+waiting for a lock/semaphore but the lock is not
+available and no tasks are configure</p>
+</li>
+<li>
+<p>Barrier Synchronization: a programming concept to align a collection
+of threads to a specific execution point; sometimessupport added to hardware</p>
+</li>
+<li>
+<p>Channels a method for interprocess communication (local or
+remote)</p>
+</li>
+</ul>
+<h3 id="sources">Sources:</h3>
+<ul>
+<li><a href="https://eecs.ceas.uc.edu/~wilseypa/classes/eece7095/lectureNotes/parallelism/programmingPrimitives.pdf">University of Cincinnati</a></li>
+<li><a href="https://www.quora.com/What-are-concurrency-primitives">Quora</a></li>
+<li><a href="https://medium.com/@itIsMadhavan/concurrency-vs-parallelism-a-brief-review-b337c8dac350">medium/itIsMadhavan</a></li>
+</ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../symlink-a-file-to-a-directory/" class="btn btn-neutral float-left" title="Symlink A File to a Directory"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../diagonal-diff/" class="btn btn-neutral float-right" title="Find the absolute diagonal difference of a matrix">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -189,8 +215,8 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../symlink-a-file-to-a-directory/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
+      <span><a href="../diagonal-diff/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
